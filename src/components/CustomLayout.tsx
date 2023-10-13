@@ -11,11 +11,9 @@ interface CustomLayoutProps {
 const CustomLayout: React.FC<CustomLayoutProps> = ({ children }) => {
   return (
     <RecoilRoot>
-      <div className="bg-white">
-        <Nav></Nav>
-        <div className="h-screen">{children}</div>
-        <Footer />
-      </div>
+      <Nav></Nav>
+      <div className="h-screen">{children}</div>
+      <Footer />
     </RecoilRoot>
   );
 };

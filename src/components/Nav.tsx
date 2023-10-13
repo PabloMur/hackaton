@@ -3,7 +3,7 @@ import Logo from "./ui/Logo";
 import Link from "next/link";
 export default function Navbar() {
   return (
-    <div className="flex justify-between h-14 items-center px-9 bg-red-300">
+    <div className="flex justify-between h-16 items-center px-9 bg-black">
       <Logo></Logo>
       <menu>
         <Link href="/ecoRiderPoint">
