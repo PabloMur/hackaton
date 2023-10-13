@@ -8,9 +8,9 @@ export default function Landing() {
     <div className="h-96 w-full bg-green-300 rounded-3xl flex">
       <div className="w-1/2 flex justify-center items-center flex-col">
         <p>
-          "EcoRide: Conectando personas y la ciudad de forma sostenible,
+          EcoRide: Conectando personas y la ciudad de forma sostenible,
           ofreciendo una forma ágil y ecológica de moverte por la urbe,
-          contribuyendo así a un futuro más limpio y accesible."
+          contribuyendo así a un futuro más limpio y accesible.
         </p>
         <Link href={"/search"}>
           <button className="bg-black p-4 rounded-xl">Buscar mi EcoRide</button>
