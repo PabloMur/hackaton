@@ -5,9 +5,9 @@ import Link from "next/link";
 
 export default function Landing() {
   return (
-    <div className="h-96 w-full bg-green-300 rounded-3xl flex">
+    <div className="h-96 w-full bg-orange-50 rounded-3xl flex">
       <div className="w-1/2 flex justify-center items-center flex-col">
-        <p>
+        <p className=" h-2/3 grid place-items-center text-black text-xl p-10">
           EcoRide: Conectando personas y la ciudad de forma sostenible,
           ofreciendo una forma ágil y ecológica de moverte por la urbe,
           contribuyendo así a un futuro más limpio y accesible.
